@@ -1,0 +1,49 @@
+.navbar {
+  background-color: white !important;
+  position: fixed;
+  z-index: 9999;
+  min-width: 100vw;
+  margin-top: -80px;
+}
+
+html {
+  font-size: 10px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  margin-left: 20px;
+  position: relative;
+}
+.nav-item::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: black;
+  width: 0;
+  height: 2px;
+  transition: 0.5s;
+}
+.nav-item:hover::after {
+  width: 90%;
+}
+
+.searchbox {
+  margin-right: 30px;
+  display: flex;
+}
+
+.searchbox input {
+  padding: 8px 15px;
+  font-size: 20px;
+}
+
+.searchbox button {
+  padding: 5px 10px;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

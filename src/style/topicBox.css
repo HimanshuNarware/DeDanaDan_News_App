@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+}
+
+.row {
+  margin: 20px !important;
+  margin-top: 79px !important;
+  height: 90px;
+}
+.row .gutter-row {
+  margin-inline: auto;
+}
+.row .btn-d {
+  padding: 4px 50px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  line-height: 1;
+}/*# sourceMappingURL=topicBox.css.map */

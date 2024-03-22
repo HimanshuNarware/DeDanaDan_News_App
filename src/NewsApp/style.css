@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary-color:#ff55bbb2;
+  }
+.Card{
+height: 500px;
+width: 320px!important;
+overflow: hidden;
+background-color: #100e2b;
+border: none;
+color: (var(--primary-color));
+
+box-shadow:5px 4px 10px rgba(0, 0, 0, 0.418);
+
+}
+.Meta{
+    color:rgb(252, 49, 49);
+}
+.des{
+    color: white;
+}
+.img{
+    height: 250px;
+background-image:url(../Image/cow\ as\ a\ mechanical\ engineer\ with\ aeroplan.png);
+}
